@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DE23C002219312900B68418 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DE23BFF2219312900B68418 /* Assets.xcassets */; };
+		4DE23C032219312900B68418 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DE23C012219312900B68418 /* LaunchScreen.storyboard */; };
+		4DE23C282219314800B68418 /* ShareService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE23C0C2219314800B68418 /* ShareService.swift */; };
+		4DE23C292219314800B68418 /* ShareServiceImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE23C0D2219314800B68418 /* ShareServiceImp.swift */; };
+		4DE23C2A2219314800B68418 /* FeedApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE23C0F2219314800B68418 /* FeedApplication.swift */; };
+		4DE23C2B2219314800B68418 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE23C102219314800B68418 /* FeedViewController.swift */; };
+		4DE23C2C2219314800B68418 /* LogisticsApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE23C122219314800B68418 /* LogisticsApplication.swift */; };
+		4DE23C2D2219314800B68418 /* LogisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE23C132219314800B68418 /* LogisticsViewController.swift */; };
+		4DE23C2E2219314800B68418 /* DemoNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE23C142219314800B68418 /* DemoNavigationController.swift */; };
+		4DE23C2F2219314800B68418 /* PayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE23C162219314800B68418 /* PayViewController.swift */; };
+		4DE23C302219314800B68418 /* PayApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE23C172219314800B68418 /* PayApplication.swift */; };
+		4DE23C312219314800B68418 /* PayCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE23C192219314800B68418 /* PayCoordinator.swift */; };
+		4DE23C322219314800B68418 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE23C1A2219314800B68418 /* DemoViewController.swift */; };
+		4DE23C332219314800B68418 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE23C1B2219314800B68418 /* AppDelegate.swift */; };
+		4DE23C342219314800B68418 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE23C1D2219314800B68418 /* ChatViewController.swift */; };
+		4DE23C352219314800B68418 /* ChatApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE23C1E2219314800B68418 /* ChatApplication.swift */; };
+		4DE23C362219314800B68418 /* ShoppingApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE23C202219314800B68418 /* ShoppingApplication.swift */; };
+		4DE23C372219314800B68418 /* ShoppingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE23C222219314800B68418 /* ShoppingCoordinator.swift */; };
+		4DE23C382219314800B68418 /* ShoppingCoordinatorImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE23C232219314800B68418 /* ShoppingCoordinatorImp.swift */; };
+		4DE23C392219314800B68418 /* ShoppingDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE23C242219314800B68418 /* ShoppingDetailViewController.swift */; };
+		4DE23C3A2219314800B68418 /* ShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE23C252219314800B68418 /* ShoppingViewController.swift */; };
+		4DE23C3B2219314800B68418 /* ShoppingShareService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE23C262219314800B68418 /* ShoppingShareService.swift */; };
+		4DE23C3C2219314800B68418 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE23C272219314800B68418 /* main.swift */; };
+		4DE23C44221931ED00B68418 /* PayCoordinatorImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE23C43221931ED00B68418 /* PayCoordinatorImp.swift */; };
+		4DE23C462219409500B68418 /* MicroKernel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE23C452219409500B68418 /* MicroKernel.framework */; };
+		4DE23C472219409500B68418 /* MicroKernel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE23C452219409500B68418 /* MicroKernel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4DE23C482219409500B68418 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4DE23C472219409500B68418 /* MicroKernel.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4DE23BF52219312700B68418 /* MicroKernelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicroKernelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DE23BFF2219312900B68418 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DE23C022219312900B68418 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DE23C042219312900B68418 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DE23C0C2219314800B68418 /* ShareService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareService.swift; sourceTree = "<group>"; };
+		4DE23C0D2219314800B68418 /* ShareServiceImp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareServiceImp.swift; sourceTree = "<group>"; };
+		4DE23C0F2219314800B68418 /* FeedApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedApplication.swift; sourceTree = "<group>"; };
+		4DE23C102219314800B68418 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		4DE23C122219314800B68418 /* LogisticsApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogisticsApplication.swift; sourceTree = "<group>"; };
+		4DE23C132219314800B68418 /* LogisticsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogisticsViewController.swift; sourceTree = "<group>"; };
+		4DE23C142219314800B68418 /* DemoNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoNavigationController.swift; sourceTree = "<group>"; };
+		4DE23C162219314800B68418 /* PayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayViewController.swift; sourceTree = "<group>"; };
+		4DE23C172219314800B68418 /* PayApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayApplication.swift; sourceTree = "<group>"; };
+		4DE23C192219314800B68418 /* PayCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayCoordinator.swift; sourceTree = "<group>"; };
+		4DE23C1A2219314800B68418 /* DemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
+		4DE23C1B2219314800B68418 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4DE23C1D2219314800B68418 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		4DE23C1E2219314800B68418 /* ChatApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatApplication.swift; sourceTree = "<group>"; };
+		4DE23C202219314800B68418 /* ShoppingApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingApplication.swift; sourceTree = "<group>"; };
+		4DE23C222219314800B68418 /* ShoppingCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingCoordinator.swift; sourceTree = "<group>"; };
+		4DE23C232219314800B68418 /* ShoppingCoordinatorImp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingCoordinatorImp.swift; sourceTree = "<group>"; };
+		4DE23C242219314800B68418 /* ShoppingDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingDetailViewController.swift; sourceTree = "<group>"; };
+		4DE23C252219314800B68418 /* ShoppingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingViewController.swift; sourceTree = "<group>"; };
+		4DE23C262219314800B68418 /* ShoppingShareService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingShareService.swift; sourceTree = "<group>"; };
+		4DE23C272219314800B68418 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4DE23C43221931ED00B68418 /* PayCoordinatorImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayCoordinatorImp.swift; sourceTree = "<group>"; };
+		4DE23C452219409500B68418 /* MicroKernel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MicroKernel.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DE23BF22219312700B68418 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE23C462219409500B68418 /* MicroKernel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DE23BEC2219312700B68418 = {
+			isa = PBXGroup;
+			children = (
+				4DE23C452219409500B68418 /* MicroKernel.framework */,
+				4DE23BF72219312700B68418 /* MicroKernelDemo */,
+				4DE23BF62219312700B68418 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DE23BF62219312700B68418 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DE23BF52219312700B68418 /* MicroKernelDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DE23BF72219312700B68418 /* MicroKernelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4DE23C0A2219314800B68418 /* Demo */,
+				4DE23C272219314800B68418 /* main.swift */,
+				4DE23BFF2219312900B68418 /* Assets.xcassets */,
+				4DE23C012219312900B68418 /* LaunchScreen.storyboard */,
+				4DE23C042219312900B68418 /* Info.plist */,
+			);
+			path = MicroKernelDemo;
+			sourceTree = "<group>";
+		};
+		4DE23C0A2219314800B68418 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				4DE23C1B2219314800B68418 /* AppDelegate.swift */,
+				4DE23C1A2219314800B68418 /* DemoViewController.swift */,
+				4DE23C142219314800B68418 /* DemoNavigationController.swift */,
+				4DE23C0B2219314800B68418 /* ShareService */,
+				4DE23C0E2219314800B68418 /* FeedApplication */,
+				4DE23C112219314800B68418 /* LogisticsApplication */,
+				4DE23C152219314800B68418 /* PayApplication */,
+				4DE23C1C2219314800B68418 /* ChatApplication */,
+				4DE23C1F2219314800B68418 /* ShoppingApplication */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		4DE23C0B2219314800B68418 /* ShareService */ = {
+			isa = PBXGroup;
+			children = (
+				4DE23C0C2219314800B68418 /* ShareService.swift */,
+				4DE23C0D2219314800B68418 /* ShareServiceImp.swift */,
+			);
+			path = ShareService;
+			sourceTree = "<group>";
+		};
+		4DE23C0E2219314800B68418 /* FeedApplication */ = {
+			isa = PBXGroup;
+			children = (
+				4DE23C0F2219314800B68418 /* FeedApplication.swift */,
+				4DE23C102219314800B68418 /* FeedViewController.swift */,
+			);
+			path = FeedApplication;
+			sourceTree = "<group>";
+		};
+		4DE23C112219314800B68418 /* LogisticsApplication */ = {
+			isa = PBXGroup;
+			children = (
+				4DE23C122219314800B68418 /* LogisticsApplication.swift */,
+				4DE23C132219314800B68418 /* LogisticsViewController.swift */,
+			);
+			path = LogisticsApplication;
+			sourceTree = "<group>";
+		};
+		4DE23C152219314800B68418 /* PayApplication */ = {
+			isa = PBXGroup;
+			children = (
+				4DE23C162219314800B68418 /* PayViewController.swift */,
+				4DE23C172219314800B68418 /* PayApplication.swift */,
+				4DE23C43221931ED00B68418 /* PayCoordinatorImp.swift */,
+				4DE23C182219314800B68418 /* PayCoordinator */,
+			);
+			path = PayApplication;
+			sourceTree = "<group>";
+		};
+		4DE23C182219314800B68418 /* PayCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				4DE23C192219314800B68418 /* PayCoordinator.swift */,
+			);
+			path = PayCoordinator;
+			sourceTree = "<group>";
+		};
+		4DE23C1C2219314800B68418 /* ChatApplication */ = {
+			isa = PBXGroup;
+			children = (
+				4DE23C1D2219314800B68418 /* ChatViewController.swift */,
+				4DE23C1E2219314800B68418 /* ChatApplication.swift */,
+			);
+			path = ChatApplication;
+			sourceTree = "<group>";
+		};
+		4DE23C1F2219314800B68418 /* ShoppingApplication */ = {
+			isa = PBXGroup;
+			children = (
+				4DE23C212219314800B68418 /* ShoppingCoordinator */,
+				4DE23C202219314800B68418 /* ShoppingApplication.swift */,
+				4DE23C232219314800B68418 /* ShoppingCoordinatorImp.swift */,
+				4DE23C242219314800B68418 /* ShoppingDetailViewController.swift */,
+				4DE23C252219314800B68418 /* ShoppingViewController.swift */,
+				4DE23C262219314800B68418 /* ShoppingShareService.swift */,
+			);
+			path = ShoppingApplication;
+			sourceTree = "<group>";
+		};
+		4DE23C212219314800B68418 /* ShoppingCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				4DE23C222219314800B68418 /* ShoppingCoordinator.swift */,
+			);
+			path = ShoppingCoordinator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DE23BF42219312700B68418 /* MicroKernelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DE23C072219312900B68418 /* Build configuration list for PBXNativeTarget "MicroKernelDemo" */;
+			buildPhases = (
+				4DE23BF12219312700B68418 /* Sources */,
+				4DE23BF22219312700B68418 /* Frameworks */,
+				4DE23BF32219312700B68418 /* Resources */,
+				4DE23C482219409500B68418 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MicroKernelDemo;
+			productName = MicroKernelDemo;
+			productReference = 4DE23BF52219312700B68418 /* MicroKernelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DE23BED2219312700B68418 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = mrriddler;
+				TargetAttributes = {
+					4DE23BF42219312700B68418 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 4DE23BF02219312700B68418 /* Build configuration list for PBXProject "MicroKernelDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DE23BEC2219312700B68418;
+			productRefGroup = 4DE23BF62219312700B68418 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DE23BF42219312700B68418 /* MicroKernelDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DE23BF32219312700B68418 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE23C032219312900B68418 /* LaunchScreen.storyboard in Resources */,
+				4DE23C002219312900B68418 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DE23BF12219312700B68418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE23C2D2219314800B68418 /* LogisticsViewController.swift in Sources */,
+				4DE23C2F2219314800B68418 /* PayViewController.swift in Sources */,
+				4DE23C44221931ED00B68418 /* PayCoordinatorImp.swift in Sources */,
+				4DE23C3C2219314800B68418 /* main.swift in Sources */,
+				4DE23C302219314800B68418 /* PayApplication.swift in Sources */,
+				4DE23C3B2219314800B68418 /* ShoppingShareService.swift in Sources */,
+				4DE23C392219314800B68418 /* ShoppingDetailViewController.swift in Sources */,
+				4DE23C382219314800B68418 /* ShoppingCoordinatorImp.swift in Sources */,
+				4DE23C2C2219314800B68418 /* LogisticsApplication.swift in Sources */,
+				4DE23C352219314800B68418 /* ChatApplication.swift in Sources */,
+				4DE23C332219314800B68418 /* AppDelegate.swift in Sources */,
+				4DE23C372219314800B68418 /* ShoppingCoordinator.swift in Sources */,
+				4DE23C362219314800B68418 /* ShoppingApplication.swift in Sources */,
+				4DE23C2A2219314800B68418 /* FeedApplication.swift in Sources */,
+				4DE23C312219314800B68418 /* PayCoordinator.swift in Sources */,
+				4DE23C322219314800B68418 /* DemoViewController.swift in Sources */,
+				4DE23C2E2219314800B68418 /* DemoNavigationController.swift in Sources */,
+				4DE23C3A2219314800B68418 /* ShoppingViewController.swift in Sources */,
+				4DE23C292219314800B68418 /* ShareServiceImp.swift in Sources */,
+				4DE23C2B2219314800B68418 /* FeedViewController.swift in Sources */,
+				4DE23C342219314800B68418 /* ChatViewController.swift in Sources */,
+				4DE23C282219314800B68418 /* ShareService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4DE23C012219312900B68418 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DE23C022219312900B68418 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DE23C052219312900B68418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4DE23C062219312900B68418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DE23C082219312900B68418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MicroKernelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MicroKernel.MicroKernelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DE23C092219312900B68418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MicroKernelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MicroKernel.MicroKernelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DE23BF02219312700B68418 /* Build configuration list for PBXProject "MicroKernelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DE23C052219312900B68418 /* Debug */,
+				4DE23C062219312900B68418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DE23C072219312900B68418 /* Build configuration list for PBXNativeTarget "MicroKernelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DE23C082219312900B68418 /* Debug */,
+				4DE23C092219312900B68418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DE23BED2219312700B68418 /* Project object */;
+}
