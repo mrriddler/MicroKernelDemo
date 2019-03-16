@@ -31,18 +31,18 @@
 		4DE23C3B2219314800B68418 /* ShoppingShareService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE23C262219314800B68418 /* ShoppingShareService.swift */; };
 		4DE23C3C2219314800B68418 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE23C272219314800B68418 /* main.swift */; };
 		4DE23C44221931ED00B68418 /* PayCoordinatorImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE23C43221931ED00B68418 /* PayCoordinatorImp.swift */; };
-		4DE23C462219409500B68418 /* MicroKernel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE23C452219409500B68418 /* MicroKernel.framework */; };
-		4DE23C472219409500B68418 /* MicroKernel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE23C452219409500B68418 /* MicroKernel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DFF7B600223C85B4003807B1 /* MicroKernel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF7B5FF223C85B4003807B1 /* MicroKernel.framework */; };
+		DFF7B601223C85B4003807B1 /* MicroKernel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DFF7B5FF223C85B4003807B1 /* MicroKernel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		4DE23C482219409500B68418 /* Embed Frameworks */ = {
+		DFF7B602223C85B4003807B1 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				4DE23C472219409500B68418 /* MicroKernel.framework in Embed Frameworks */,
+				DFF7B601223C85B4003807B1 /* MicroKernel.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -76,7 +76,7 @@
 		4DE23C262219314800B68418 /* ShoppingShareService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingShareService.swift; sourceTree = "<group>"; };
 		4DE23C272219314800B68418 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4DE23C43221931ED00B68418 /* PayCoordinatorImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayCoordinatorImp.swift; sourceTree = "<group>"; };
-		4DE23C452219409500B68418 /* MicroKernel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MicroKernel.framework; sourceTree = "<group>"; };
+		DFF7B5FF223C85B4003807B1 /* MicroKernel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MicroKernel.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DE23C462219409500B68418 /* MicroKernel.framework in Frameworks */,
+				DFF7B600223C85B4003807B1 /* MicroKernel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +94,7 @@
 		4DE23BEC2219312700B68418 = {
 			isa = PBXGroup;
 			children = (
-				4DE23C452219409500B68418 /* MicroKernel.framework */,
+				DFF7B5FF223C85B4003807B1 /* MicroKernel.framework */,
 				4DE23BF72219312700B68418 /* MicroKernelDemo */,
 				4DE23BF62219312700B68418 /* Products */,
 			);
@@ -222,7 +222,7 @@
 				4DE23BF12219312700B68418 /* Sources */,
 				4DE23BF22219312700B68418 /* Frameworks */,
 				4DE23BF32219312700B68418 /* Resources */,
-				4DE23C482219409500B68418 /* Embed Frameworks */,
+				DFF7B602223C85B4003807B1 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

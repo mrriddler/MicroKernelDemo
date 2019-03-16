@@ -22,6 +22,8 @@ class AppDelegate: PlatformMainApplication {
         
         self.window = UIWindow(frame: UIScreen.main.bounds)
         let nav: DemoNavigationController = DemoNavigationController()
+        nav.delegate = nav
+        
         self.navs.append(nav)
         self.window?.rootViewController = nav
         self.window?.makeKeyAndVisible()
@@ -75,6 +77,7 @@ extension UIApplicationDelegate {
     
     func switchNewNavigationController() -> DemoNavigationController {
         let newNav: DemoNavigationController = DemoNavigationController()
+        newNav.delegate = newNav
         
         let delegate = self as! AppDelegate
         delegate.navs.append(newNav)
